@@ -28,7 +28,7 @@ jobs:
       - name: Run all Python scripts
         run: |
           echo "Running all Python scripts in folder..."
-          for file in "GIT_ACTIONS/code"/*.py; do
+          for file in "GIT_ACTIONS/codes"/*.py; do
             echo "Running $file..."
             python "$file"
           done
